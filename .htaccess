@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^$ /nieuwsbrief [R=301,L]
+RewriteRule ^$ /nijsbrief [R=301,L]
+RewriteRule ^nieuwsbrief/?$ /nijsbrief [R=301,L]
